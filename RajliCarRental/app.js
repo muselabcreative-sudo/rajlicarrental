@@ -64,7 +64,7 @@ const DICT = {
     "loc.eyebrow": "Find Us",
     "loc.heading": "Our Location",
     "loc.lede":
-      "Based in Albania with airport pickup & drop-off. Reach out anytime — we reply fast.",
+      "Based in Shkoder, Albania with airport pickup & drop-off. Reach out anytime — we reply fast.",
     "loc.card.title": "Rajli Car Rental — Airport Service",
     "loc.card.desc":
       "We meet you at the airport with your car ready to go. Use the WhatsApp button or call us directly to confirm your pickup.",
