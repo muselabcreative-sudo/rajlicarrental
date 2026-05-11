@@ -32,7 +32,7 @@ const DICT = {
     "about.eyebrow": "About Rajli",
     "about.heading": "Your partner on every journey.",
     "about.p1":
-      "We are a professional car rental company based in Albania, offering a carefully selected fleet of modern and well-maintained vehicles.",
+      "We are a professional car rental company based in Shkoder, Albania, offering a carefully selected fleet of modern and well-maintained vehicles.",
     "about.p2":
       "Whether you are a tourist exploring the Albanian Riviera or a business traveler in need of reliable transport, we ensure comfort, safety, and a premium driving experience from start to finish.",
     "about.p3":
@@ -150,7 +150,7 @@ const DICT = {
     "loc.eyebrow": "Na gjeni",
     "loc.heading": "Vendndodhja Jonë",
     "loc.lede":
-      "Me bazë në Shqipëri, me marrje dhe dorëzim në aeroport. Na kontaktoni në çdo kohë — përgjigjemi shpejt.",
+      "Me bazë në Shkodër, Shqipëri, me marrje dhe dorëzim në aeroport. Na kontaktoni në çdo kohë — përgjigjemi shpejt.",
     "loc.card.title": "Rajli Car Rental — Shërbim Aeroporti",
     "loc.card.desc":
       "Ju presim në aeroport me makinën gati për nisje. Përdorni butonin WhatsApp ose na telefononi drejtpërdrejt për të konfirmuar marrjen.",
