@@ -30,7 +30,7 @@ const DICT = {
     "hero.cta.fleet": "View the fleet →",
 
     "about.eyebrow": "About Rajli",
-    "about.heading": "Partneri yt në çdo udhëtim.",
+    "about.heading": "Your partner on every journey.",
     "about.p1":
       "We are a professional car rental company based in Albania, offering a carefully selected fleet of modern and well-maintained vehicles.",
     "about.p2":
@@ -78,7 +78,7 @@ const DICT = {
     "footer.findmap": "Find us on the map",
     "footer.findmap.short": "Google Maps",
     "footer.brandline":
-      "Premium car rental in Albania. Partneri yt në çdo udhëtim.",
+      "Premium car rental in Albania. Your partner on every journey.",
     "footer.rights": "All rights reserved.",
     "footer.slogan": "Drive The Difference.",
 
