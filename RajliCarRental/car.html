@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Car — Rajli Car Rental</title>
+  <meta name="description" content="Premium airport car rental in Albania. Book on WhatsApp." />
+  <meta name="theme-color" content="#0b0b0d" />
+  <link rel="icon" href="assets/LOGO.jpeg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="nav scrolled">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <img src="assets/LOGO.jpeg" alt="Rajli Car Rental" />
+        <span class="brand-name">
+          <strong>Rajli</strong>
+          <span data-i18n="brand.tagline">Car Rental</span>
+        </span>
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="index.html#fleet" data-i18n="nav.fleet">Fleet</a>
+        <a href="index.html#about" data-i18n="nav.about">About</a>
+        <a href="index.html#location" data-i18n="nav.location">Location</a>
+        <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
+        <a class="nav-cta" data-wa="" href="#"><span data-i18n="cta.book">Book on WhatsApp</span></a>
+        <button class="lang-toggle" id="lang-toggle" aria-label="Switch language">AL</button>
+      </nav>
+      <button class="nav-toggle" aria-label="Open menu" aria-controls="nav-links">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="detail-root"></main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand">
+            <img src="assets/LOGO.jpeg" alt="Rajli Car Rental" />
+            <span class="brand-name">
+              <strong>Rajli</strong>
+              <span data-i18n="brand.tagline">Car Rental</span>
+            </span>
+          </div>
+          <p data-i18n="footer.brandline">Premium car rental in Albania. Partneri yt në çdo udhëtim.</p>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.explore">Explore</h4>
+          <ul>
+            <li><a href="index.html#fleet" data-i18n="nav.fleet">Fleet</a></li>
+            <li><a href="index.html#about" data-i18n="nav.about">About</a></li>
+            <li><a href="index.html#location" data-i18n="nav.location">Location</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.contact">Contact</h4>
+          <ul>
+            <li><a href="tel:+355688208884">+355 68 820 8884</a></li>
+            <li><a data-wa="" href="#">WhatsApp</a></li>
+            <li><a href="https://www.instagram.com/rajli.car.rental/" target="_blank" rel="noopener">Instagram · @rajli.car.rental</a></li>
+            <li><a href="https://maps.app.goo.gl/r2Y7C3x4xw66FdpaA" target="_blank" rel="noopener" data-i18n="footer.findmap.short">Google Maps</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Rajli Car Rental. <span data-i18n="footer.rights">All rights reserved.</span></span>
+        <span data-i18n="footer.slogan">Drive The Difference.</span>
+      </div>
+    </div>
+  </footer>
+
+  <a id="whatsapp-fab" class="fab" href="#" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.52 3.48A11.84 11.84 0 0 0 12.05 0C5.5 0 .2 5.3.2 11.85c0 2.09.55 4.13 1.59 5.93L0 24l6.4-1.68a11.83 11.83 0 0 0 5.65 1.44h.01c6.55 0 11.85-5.3 11.85-11.86 0-3.16-1.23-6.13-3.39-8.42z"/></svg>
+  </a>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="cars-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
